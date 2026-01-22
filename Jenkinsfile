@@ -2,7 +2,6 @@ pipeline {
     agent {
         node {
             label 'jenkins-agent'
-            customWorkspace '/some/other/path'
         }
     }
     stages {
