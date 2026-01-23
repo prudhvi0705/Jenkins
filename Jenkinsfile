@@ -14,6 +14,7 @@ pipeline {
                     sh """
                     echo "This is the build stage"
                     echo $COURSE
+                    env
                     """
                 }
             }
