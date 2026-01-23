@@ -30,5 +30,9 @@ pipeline {
         success{
             echo "This is success section"
         }
+
+        failure{
+            echo "This is failure section"
+        }
     }
 }
