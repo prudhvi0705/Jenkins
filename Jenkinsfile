@@ -27,5 +27,8 @@ pipeline {
             echo "I Will run irrespective of result"
             cleanWs()
         }
+        success{
+            echo "This is success section"
+        }
     }
 }
