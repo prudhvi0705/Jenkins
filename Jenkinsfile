@@ -21,10 +21,11 @@ pipeline {
             }
         }
     }
-    
+
     post{
         always{
             echo "I Will run irrespective of result"
+            cleanWs()
         }
     }
 }
