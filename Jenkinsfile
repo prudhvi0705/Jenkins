@@ -60,6 +60,7 @@ pipeline {
             }
         }
     }
+    //Auto-trigger
 
     post{
         always{
