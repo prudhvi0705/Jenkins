@@ -1,4 +1,5 @@
 pipeline {
+    //This is pre-build section
     agent {
         node {
             label 'jenkins-agent'
