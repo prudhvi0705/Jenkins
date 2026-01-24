@@ -5,6 +5,7 @@ pipeline {
             label 'jenkins-agent'
         }
     }
+    //This is env section
     environment{
         COURSE="Jenkins"
     }
